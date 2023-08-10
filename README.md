@@ -1,7 +1,7 @@
 <img width="750" alt="OEO Banner" src="https://user-images.githubusercontent.com/10479169/130466549-5f547716-12fa-416e-a2f7-770b9d6a30e6.png">
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TemoaProject/oeo/master/?urlpath=tree)
-
+# This is a test repo... To be deleted shortly. 
 ## Overview
 Welcome to the GitHub repository associated with the [Open Energy Outlook (OEO) for the United States](https://openenergyoutlook.org/). This project aims to bring U.S. energy system modeling into the twenty-first century by applying the gold standards of policy-focused academic modeling, maximizing transparency, building a networked community, and working towards a common goal: examining U.S. energy futures to inform future energy and climate policy efforts.
 
@@ -13,7 +13,7 @@ In January 2019, the [Open Energy Outlook Team](https://openenergyoutlook.org/?p
 [<img width="857" alt="Roadmap Screenshot" src="https://user-images.githubusercontent.com/10479169/130465536-97ba0f71-3200-4a5f-b5e8-c56351842ebc.png">](OEO_Roadmap.md)
 
 ## Tools for Energy Model Optimization and Analysis (Temoa)
-[Temoa](https://temoacloud.com/) is an open source energy system optimization model, and serves as the backbone of the OEO analysis. The Temoa source code is included in this repository as a submodule. 
+[Temoa](https://temoacloud.com/) is an open source energy system optimization model, and serves as the backbone of the OEO analysis. The Temoa source code is included in this repository as a submodule.
 
 Temoa simultaneously balances supply and demand of energy commodities across the energy system and performs capacity expansion over time. The model employs linear programing techniques, and is driven by an objective function that minimizes the cost of energy supply over a user-defined time horizon. The decision variables include the installed capacity and energy output of each technology within the user-defined energy system network. The user-defined model time horizon typically spans multiple decades and consists of a set of time periods, which are further decomposed into time slices over which short-term variations in supply and demand must be balanced. Time slices in Temoa are user-defined and can be used to represent temporal resolutions ranging from large blocks of time (e.g., 'summer-day') to every hour of the year. As noted below, the OEO project includes multiple versions of the database with different temporal resolutions.
 
